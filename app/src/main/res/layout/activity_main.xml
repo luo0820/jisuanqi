@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="6"
+    android:columnCount="5"
+    >
+
+    <EditText
+        android:id="@+id/a_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan = "5"
+        android:layout_marginLeft="20px"
+        android:gravity="left"
+        android:text="0"
+        android:textSize="50dip"
+        /> <!--组件占据6列，且左对齐，设置左边距为20px-->
+
+
+
+    <Button android:text ="sin" android:id="@+id/btn_sin" android:textSize="30sp" android:background="#FFFFF0" android:textColor="@color/hui"/>
+    <Button android:text ="ln" android:id="@+id/btn_ln" android:textSize="30sp" android:background="#FFFFF0" android:textColor="@color/hui"/>
+    <Button android:text ="cos" android:id="@+id/btn_cos" android:textSize="30sp" android:background="#FFFFF0" android:textColor="@color/hui"/>
+    <Button android:text ="c" android:id="@+id/btn_c" android:textSize="30sp" android:background="#FFFFF0" android:textColor="@color/hui"/>
+    <Button android:text ="x" android:id="@+id/btn_x" android:textSize="30sp" android:background="#FFFFF0" android:textColor="@color/hui"/>
+    <Button android:text ="1/x" android:id="@+id/btn_1x" android:textSize="30sp" android:background="#FFFFF0" android:textColor="@color/hui"/>
+    <Button android:text ="√x" android:id="@+id/btn_gx" android:textSize="30sp" android:background="#FFFFf0" android:textColor="@color/hui"/>
+    <Button android:text ="(" android:id="@+id/btn_zuo" android:textSize="30sp" android:background="#FFFFF0" android:textColor="@color/hui"/>
+    <Button android:text =")" android:id="@+id/btn_you" android:textSize="30sp" android:background="#FFFFF0" android:textColor="@color/hui"/>
+    <Button android:text ="+" android:id="@+id/btn_jia" android:textSize="30sp" android:background="#FFFFF0" android:textColor="@color/hui"/>
+
+    <Button android:text ="x^y" android:id="@+id/btn_xy" android:textSize="30sp" android:background="#FFFFF0" android:textColor="@color/hui"/>
+    <Button android:text ="1" android:id="@+id/btn_one" android:textSize="30sp" android:background="#FFF0f0" android:textColor="@color/hui"/>
+    <Button android:text ="2" android:id="@+id/btn_two" android:textSize="30sp" android:background="#FFF0f0" android:textColor="@color/hui"/>
+    <Button android:text ="3" android:id="@+id/btn_three" android:textSize="30sp" android:background="#FFF0f0" android:textColor="@color/hui"/>
+    <Button android:text ="-" android:id="@+id/btn_jian" android:textSize="30sp" android:background="#FFFFF0" android:textColor="@color/hui"/>
+    <Button android:text ="n!" android:id="@+id/btn_njie" android:textSize="30sp" android:background="#FFFFF0" android:textColor="@color/hui"/>
+
+    <Button android:text ="4" android:id="@+id/btn_four" android:textSize="30sp" android:background="#FFF0f0" android:textColor="@color/hui"/>
+    <Button android:text ="5" android:id="@+id/btn_five" android:textSize="30sp" android:background="#FFF0f0" android:textColor="@color/hui"/>
+    <Button android:text ="6" android:id="@+id/btn_six" android:textSize="30sp" android:background="#FFF0f0" android:textColor="@color/hui"/>
+    <Button android:text ="*" android:id="@+id/btn_chen" android:textSize="30sp" android:background="#FFFff0" android:textColor="@color/hui"/>
+
+    <Button android:text ="|x|" android:id="@+id/btn_jue" android:textSize="30sp" android:background="#FFFff0" android:textColor="@color/hui"/>
+    <Button android:text ="7" android:id="@+id/btn_seven" android:textSize="30sp" android:background="#FFF0f0" android:textColor="@color/hui"/>
+    <Button android:text ="8" android:id="@+id/btn_eight" android:textSize="30sp" android:background="#FFF0f0" android:textColor="@color/hui"/>
+
+    <Button android:text ="9" android:id="@+id/btn_ninth" android:textSize="30sp" android:background="#FFF0f0" android:textColor="@color/hui"/>
+    <Button android:text ="/" android:id="@+id/btn_chu" android:textSize="30sp" android:background="#FFFff0" android:textColor="@color/hui"/>
+
+    <Button android:text ="π" android:id="@+id/btn_π" android:textSize="30sp" android:background="#FFFff0" android:textColor="@color/hui"/>
+    <Button android:text ="e" android:id="@+id/btn_e" android:textSize="30sp" android:background="#FFF0f0" android:textColor="@color/hui"/>
+    <Button android:text ="0" android:id="@+id/btn_ling" android:textSize="30sp" android:background="#FFF0f0" android:textColor="@color/hui"/>
+    <Button android:text ="." android:id="@+id/btn_dian" android:textSize="30sp" android:background="#FFF0f0" android:textColor="@color/hui"/>
+    <Button android:text ="=" android:id="@+id/btn_deng" android:textSize="30sp" android:background="#FFFff0" android:textColor="@color/hui"/>
+<!--    <Button android:text ="hu_h" android:id="@+id/btn_hu_an" android:textSize="30sp" android:background="#FFFff0" android:textColor="@color/hui"/>-->
+    <Button
+        android:id="@+id/btn_hu_an"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="换算"
+        android:textSize="30sp"
+        android:onClick="huansu"
+        android:layout_columnSpan="1"
+        android:background="#ff00f0f0"
+        />
+    <Button
+        android:id="@+id/btn_hui_lv"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="汇率"
+        android:textSize="30sp"
+        android:layout_columnSpan="1"
+        android:background="#ff00f0f0"
+        />
+
+    <Button
+        android:id="@+id/btn_jin_zhi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_columnSpan="1"
+        android:background="#ff0ffff0"
+        android:text="进制"
+        android:textSize="30sp" />
+ <Button
+        android:id="@+id/btn_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_columnSpan="2"
+        android:background="#ff0ffff0"
+        android:text="帮助"
+        android:textSize="30sp" />
+
+</GridLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="huilv">
+        <item>人民币 CNY</item>
+        <item>美元 USD</item>
+        <item>欧元 EUR</item>
+        <item>日元 JPY</item>
+        <item>英镑 GBP</item>
+        <item>港币 HKD</item>
+        <item>韩国元 KRW</item>
+        <item>新加坡元 SGD</item>
+        <item>加拿大元 CAD</item>
+        <item>泰铢 THB</item>
+        <item>瑞士法郎 CHF</item>
+        <item>法国法郎 FRF</item>
+        <item>荷兰盾 NLG</item>
+        <item>意大利里拉 ITL</item>
+        <item>俄罗斯卢布 RUB</item>
+    </string-array>
+
+    <string-array name="length">
+        <item>千米 km</item>
+        <item>米 m</item>
+        <item>分米 dm</item>
+        <item>厘米 cm</item>
+        <item>毫米 mm</item>
+        <item>微米 um</item>
+        <item>纳米 nm</item>
+        <item>皮米 pm</item>
+    </string-array>
+   <string-array name="tiji">
+        <item>立方米 m³</item>
+        <item>立方分米 dm³</item>
+        <item>立方厘米 cm³</item>
+        <item>立方毫米 mm³</item>
+        <item>升 l</item>
+        <item>分升 dl</item>
+        <item>厘升 cl</item>
+        <item>毫升 ml</item>
+    </string-array>
+
+</resources>
